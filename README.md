@@ -62,3 +62,42 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+Aplikasi CRUD Postingan Sederhana TechStack :  Laravel dan MySQL.
+
+Github Repository: https://github.com/ervanade/crud-post-sederhana
+
+Cara Install Docker:
+1.	git clone https://github.com/ervanade/crud-post-sederhana 
+2.	cd crud-post-sederhana/
+3.	docker-compose up –d
+4.	docker exec -it app /bin/bash      || docker exec –it (container-app-id) bash
+5.	composer install
+6.	cp .env.example .env
+7.	php artisan migrate
+8.	php artisan db:seed
+9.	Application http://localhost:8088/ | https :4431
+10.	Adminer Untuk Setting Database http://localhost:8080/
+    DBhost: (IPLocal/DockerIp):3307, user: root, Password: 123456
+    
+    
+Cara Install Windows:
+1.	git clone https://github.com/ervanade/crud-post-sederhana 
+2.	cd crud-post-sederhana/
+3.	composer install
+4.	cp .env.example .env
+5.	Update .env and ubah sesuai pengaturan database anda
+6.	Buat Database sesuai dengan nama di .env
+7.	php artisan migrate
+8.	php artisan db:seed
+9.	php artisan serve
+
+Admin Email : ervanade26@gmail.com  || admin1@gmail.com
+Admin Password : 12345
+
+User Email : user1@gmail.com
+User Password : 12345
+
+
+
